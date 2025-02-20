@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET", "ADO.NET\ADONET.csproj", "{0374E804-B80B-4C01-926C-94426DC80182}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBManagement", "DBManagement\DBManagement.csproj", "{A0389D1D-0310-15E6-8786-C257927BE28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{2B08AC1A-3288-4CE4-A703-9B24E7981161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0374E804-B80B-4C01-926C-94426DC80182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0374E804-B80B-4C01-926C-94426DC80182}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0374E804-B80B-4C01-926C-94426DC80182}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0374E804-B80B-4C01-926C-94426DC80182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0389D1D-0310-15E6-8786-C257927BE28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0389D1D-0310-15E6-8786-C257927BE28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0389D1D-0310-15E6-8786-C257927BE28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0389D1D-0310-15E6-8786-C257927BE28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B08AC1A-3288-4CE4-A703-9B24E7981161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B08AC1A-3288-4CE4-A703-9B24E7981161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B08AC1A-3288-4CE4-A703-9B24E7981161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B08AC1A-3288-4CE4-A703-9B24E7981161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
