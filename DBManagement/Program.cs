@@ -16,8 +16,26 @@ namespace DBManagement
             //conn.GetLastid();
             //conn.GetAllData();
             //conn.UpdateData();
+            int[] ints = new int[2];
+            var l = ints.Take(2);
+            char defaultChar = default(char);
+            string s = default(string);
+            //foreach (var item in l)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //char c = ch;
+            
         }
     }
-    
-    
+    interface i
+    {
+        static void m()
+        {
+            Console.WriteLine("i");
+        }
+        void j();
+    }
+
+
 }
